@@ -1,7 +1,7 @@
 # iprb_malloc
 an in place implementation of malloc with red black tree
 
-this may be done before, but I put the nodes of the red black tree inside the free blocks, so that the algorithm doesn't take up any additional memory for storing the nodes (except a few variables, but probably some of those can be omitted too.
+this may have bewn done before, but I put the nodes of the red black tree inside the free blocks, so that the algorithm doesn't take up any additional memory for storing the nodes (except a few variables, but probably some of those can be omitted too.
 
 This is not meant to be a perfect implementation of this algorithm, this is my solution to the homework problem in the CSAPP Chapter Virtual memory last assignment of writing your own free and malloc functions.
 
